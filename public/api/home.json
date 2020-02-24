@@ -1,0 +1,49 @@
+{
+  "code": 0,
+  "data": {
+    "topicList": [
+      {
+        "id": 1,
+        "title": "社会热点",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "title": "手绘",
+        "url": ""
+      },
+      {
+        "id": 3,
+        "title": "体育",
+        "url": ""
+      },
+      {
+        "id": 4,
+        "title": "互联网",
+        "url": ""
+      }
+    ],
+    "articleList": [
+      {
+        "id": 1,
+        "title": "胡歌给了gegae",
+        "description": "adfasdfasdfdasfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+      },
+      {
+        "id": 2,
+        "title": "胡歌给了gegae",
+        "description": "adfasdfasdfdasfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+      },
+      {
+        "id": 3,
+        "title": "胡歌给了gegae",
+        "description": "adfasdfasdfdasfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+      },
+      {
+        "id": 4,
+        "title": "胡歌给了gegae",
+        "description": "adfasdfasdfdasfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+      }
+    ]
+  }
+}

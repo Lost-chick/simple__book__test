@@ -1,0 +1,167 @@
+.header-container {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 58px;
+  border-bottom: 1px solid #f0f0f0;
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100px;
+    height: 56px;
+
+    .nva-img {
+      width: 100%;
+      height: 100%;
+      // vertical-align: middle;
+    }
+  }
+  .nav {
+    width: 960px;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 70px;
+
+    li {
+      display: inline-block;
+      line-height: 56px;
+      padding: 0 15px;
+      font-size: 17px;
+      color: #333;
+      cursor: pointer;
+
+      &.left {
+        float: left;
+      }
+      &.right {
+        float: right;
+        color: #969696;
+
+        .iconAa {
+          font-size: 17px;
+        }
+      }
+      &.active {
+        color:#ea6f5a
+      }
+    }
+
+    .search {
+      position: relative;
+      .input-search {
+        box-sizing: border-box;
+        width: 160px;
+        height: 38px;
+        margin-top: 9px;
+        padding: 0 30px 0 20px;
+        border: none;
+        outline: none;
+        border-radius: 19px;
+        background: #eee;
+        font-size: 14px;
+        transition: all .3s ease-in;
+
+        &.focused {
+          width: 200px;
+        }
+      }
+
+      .iconfont {
+        position: absolute;
+        right: 20px;
+        bottom: 10px;
+        width: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 15px;
+        // background: green;
+        transition: all .3s ease-in;
+
+        &.focused {
+          color: #fff;
+          background: #777;
+        }
+      }
+      
+      .search-info {
+        position: absolute;
+        top: 55px;
+        left: 15px;
+        width: 240px;
+        min-height: 200px;
+        padding: 0 20px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+        border-radius: 5px;
+        z-index: 9999;
+        background: #fff;
+
+        .search-title {
+          margin-top: 20px;
+          margin-bottom: 15px;
+          line-height: 20px;
+          font-size: 14px;
+          color: #969696;
+
+          .change {
+            float: right;
+            cursor: pointer;
+          }
+        }
+
+        .options {
+          .option-item {
+            display: block;
+            float: left;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            height: 15px;
+            line-height: 15px;
+            font-size: 12px;
+            border-radius: 3px;
+            color: #969696;
+          }
+        }
+      }
+    }
+
+
+
+    
+  }
+
+  .addtion {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 56px;
+
+    .btn {
+      float: right;
+      margin-top: 9px;
+      margin-right: 20px;
+      padding: 0 20px;
+      line-height: 38px;
+      border-radius: 19px;
+      border: 1px solid #ec6149;
+      cursor: pointer;
+
+      &.btn-reg {
+        color: #ec6149;
+        background: #fff;
+      }
+      &.bth-write {
+        color: #fff;
+        background: #ec6149;
+        .iconyumaobi {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
